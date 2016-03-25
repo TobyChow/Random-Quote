@@ -25,12 +25,12 @@ $(".btn").click(function() {
     var quote = chosenPair[0];
     var author = chosenPair[1];
     var citation = '"' + quote + '"' + " -" + author;
-    $(".well b").remove();
-    $(".well cite").remove();
-    $(".well").append("<b></b>");
+    $(".well .quote b").remove();
+    $(".well .cite cite").remove();
+    $(".well .quote").append("<b></b>");
     $(".well b").append(quote);
-    $(".well").append("<cite>- </cite>");
-    $(".well cite").append(author);
+    $(".well .cite").append("<cite>- </cite>");
+    $(".well .cite cite").append(author);
 
     $('#tweetBtn iframe').remove();
     // Generate new markup

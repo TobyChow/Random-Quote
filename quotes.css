@@ -17,7 +17,7 @@ h1 {
     font-size: 50pt;
 }
 
-b {
+b,p {
     font-size: 25pt;
 }
 
@@ -30,6 +30,7 @@ b.quote {
 }
 
 .well {
+    position: relative;
     border: 1px solid grey;
     margin-top: 30px;
     margin-left: 200px;
